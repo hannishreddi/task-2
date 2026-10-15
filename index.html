@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Orbit — the calm planning workspace for small teams.">
+  <title>Orbit — Plan work that actually ships</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="#" class="logo" aria-label="Orbit home">
+        <span class="logo-mark" aria-hidden="true"></span>Orbit
+      </a>
+
+      <!-- CSS-only mobile menu toggle -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle menu">
+        <span></span>
+      </label>
+
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#" class="btn btn-small">Get started</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero container">
+      <div class="hero-text">
+        <span class="eyebrow">New · Orbit 2.0 is here</span>
+        <h1>Plan work that <span class="highlight">actually ships.</span></h1>
+        <p>Orbit brings your team's tasks, docs and deadlines into one calm workspace — so you spend less time in status meetings and more time building.</p>
+        <div class="hero-actions">
+          <a href="#" class="btn">Start free trial</a>
+          <a href="#features" class="btn btn-ghost">See how it works →</a>
+        </div>
+        <p class="hero-note">Free for teams up to 5 · No credit card required</p>
+      </div>
+
+      <!-- Mock app preview built with CSS Grid -->
+      <div class="hero-visual" aria-hidden="true">
+        <div class="mock-window">
+          <div class="mock-bar"><i></i><i></i><i></i></div>
+          <div class="mock-board">
+            <div class="mock-col">
+              <h4>To do</h4>
+              <div class="mock-card"><b class="tag tag-purple"></b><span></span><span class="short"></span></div>
+              <div class="mock-card"><b class="tag tag-orange"></b><span></span></div>
+            </div>
+            <div class="mock-col">
+              <h4>In progress</h4>
+              <div class="mock-card"><b class="tag tag-green"></b><span></span><span class="short"></span></div>
+              <div class="mock-card"><b class="tag tag-purple"></b><span class="short"></span></div>
+              <div class="mock-card"><b class="tag tag-orange"></b><span></span></div>
+            </div>
+            <div class="mock-col">
+              <h4>Done</h4>
+              <div class="mock-card done"><b class="tag tag-green"></b><span></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="logos container">
+      <p>Trusted by 4,000+ teams at</p>
+      <ul>
+        <li>Northwind</li>
+        <li>Acme&nbsp;Co</li>
+        <li>Globex</li>
+        <li>Initech</li>
+        <li>Umbrella</li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================= FEATURES ================= -->
+    <section id="features" class="features section">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Features</span>
+          <h2>Everything your team needs, nothing it doesn't</h2>
+          <p>Orbit replaces the patchwork of tools that slow you down with one focused place to plan and deliver.</p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card">
+            <div class="icon" aria-hidden="true">🗂️</div>
+            <h3>Flexible boards</h3>
+            <p>Switch between kanban, list and timeline views in one click. Your work, shaped the way you think.</p>
+          </article>
+          <article class="feature-card">
+            <div class="icon" aria-hidden="true">⚡</div>
+            <h3>Smart automations</h3>
+            <p>Move cards, assign owners and send reminders automatically — set it once and forget it.</p>
+          </article>
+          <article class="feature-card">
+            <div class="icon" aria-hidden="true">📊</div>
+            <h3>Live insights</h3>
+            <p>See velocity, blockers and workload at a glance with dashboards that update in real time.</p>
+          </article>
+          <article class="feature-card">
+            <div class="icon" aria-hidden="true">💬</div>
+            <h3>Threaded comments</h3>
+            <p>Keep every decision next to the work it affects. No more digging through chat history.</p>
+          </article>
+          <article class="feature-card">
+            <div class="icon" aria-hidden="true">🔗</div>
+            <h3>50+ integrations</h3>
+            <p>Connect GitHub, Slack, Figma and Google Drive so updates flow in without copy-pasting.</p>
+          </article>
+          <article class="feature-card">
+            <div class="icon" aria-hidden="true">🔒</div>
+            <h3>Secure by default</h3>
+            <p>SSO, granular permissions and encrypted storage keep your team's work safe.</p>
+          </article>
+        </div>
+
+        <!-- Stats strip (Flexbox) -->
+        <div class="stats">
+          <div class="stat"><strong>32%</strong><span>faster delivery</span></div>
+          <div class="stat"><strong>6 hrs</strong><span>saved per person / week</span></div>
+          <div class="stat"><strong>99.9%</strong><span>uptime</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TESTIMONIALS ================= -->
+    <section id="testimonials" class="testimonials section">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Testimonials</span>
+          <h2>Teams love working in Orbit</h2>
+        </div>
+
+        <div class="testimonial-grid">
+          <figure class="testimonial">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>“We cut our weekly sync from an hour to fifteen minutes. Everyone just knows what's happening.”</blockquote>
+            <figcaption>
+              <span class="avatar" style="--hue: 260">PS</span>
+              <span><strong>Priya Sharma</strong><small>Head of Product, Northwind</small></span>
+            </figcaption>
+          </figure>
+          <figure class="testimonial featured">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>“Orbit is the first tool our engineers and designers both actually enjoy using. The automations alone paid for it in a month.”</blockquote>
+            <figcaption>
+              <span class="avatar" style="--hue: 20">MO</span>
+              <span><strong>Marcus Okafor</strong><small>CTO, Globex</small></span>
+            </figcaption>
+          </figure>
+          <figure class="testimonial">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>“Clean, fast and genuinely calm. Onboarding our 40-person team took a single afternoon.”</blockquote>
+            <figcaption>
+              <span class="avatar" style="--hue: 150">LC</span>
+              <span><strong>Lena Chen</strong><small>Operations Lead, Initech</small></span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CALL TO ACTION ================= -->
+    <section id="pricing" class="cta section">
+      <div class="container cta-box">
+        <div>
+          <h2>Ready to bring your team into Orbit?</h2>
+          <p>Start free today. Upgrade to Pro for $8 per user / month whenever you're ready.</p>
+        </div>
+        <form class="cta-form" action="#" onsubmit="return false;">
+          <label for="email" class="sr-only">Work email</label>
+          <input type="email" id="email" placeholder="you@company.com" required>
+          <button type="submit" class="btn btn-light">Get started</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="logo"><span class="logo-mark" aria-hidden="true"></span>Orbit</a>
+        <p>The calm planning workspace for small, ambitious teams.</p>
+      </div>
+      <div>
+        <h4>Product</h4>
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#">Integrations</a></li>
+          <li><a href="#">Changelog</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="#">Help center</a></li>
+          <li><a href="#">Templates</a></li>
+          <li><a href="#">Community</a></li>
+          <li><a href="#">Status</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 Orbit Labs, Inc. All rights reserved.</p>
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Cookies</a></li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+</html>
